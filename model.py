@@ -6,7 +6,7 @@ class LSTMSettlementModel(nn.Module):
     def __init__(
         self,
         static_size=3,      # Height, Angle, Settlement_t
-        future_size=2,      # Rain, Evap
+        future_size=1,      # Rain, Evap
         hidden_size=64,
         num_layers=2,
         dropout=0.2,

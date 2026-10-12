@@ -14,7 +14,7 @@ PREDICTION_PATH = "./results/test_predictions.csv"
 SAVE_DIR = "./results/plots"
 
 SLOPE_HEIGHT = 50.0
-SLOPE_ANGLE = 60.0
+SLOPE_ANGLE = 10.0
 
 FORECAST_STEPS = [1, 5, 10, 15]
 
